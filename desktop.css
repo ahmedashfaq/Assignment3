@@ -1,0 +1,10 @@
+@media only screen and (max-width:1440px) {
+    .missoon .container-fluid {
+        margin-bottom: 50%;
+
+    }
+
+    .garelly .container {
+        margin-top: 50%;
+    }
+}

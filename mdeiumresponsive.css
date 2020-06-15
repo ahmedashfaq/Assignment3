@@ -1,0 +1,118 @@
+@media only screen and (max-width:1024px) {
+    .navbar-nav .nav-link {
+        margin: 5px !important;
+        font-size: 10px;
+    }
+
+    .main-body .body-logo::before {
+        margin-top: 33px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 30px !important;
+    }
+
+    .main-body .body-logo::after {
+        margin-top: -28px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 140px !important;
+        margin-top: -3.3% !important;
+
+    }
+
+    .paralax .col-lg-3 {
+        padding: 20px !important;
+    }
+
+    .paralax .col-lg-3 p {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        margin-left: 2% !important;
+    }
+
+    .paralax .col-lg-3 .dail {
+        margin-left: 2% !important;
+
+    }
+
+    .feature .body-logo::before {
+        margin-top: 33px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 30px !important;
+    }
+
+    .feature .body-logo::after {
+        margin-top: -28px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 140px !important;
+        margin-top: -3.3% !important;
+
+    }
+
+    .garelly .body-logo::before {
+        margin-top: 33px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 30px !important;
+    }
+
+    .garelly .body-logo::after {
+        margin-top: -28px !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 140px !important;
+        margin-top: -3.3% !important;
+
+    }
+
+    .feature .col-sm-4 i {
+        margin-left: 45px !important;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .feature .col-sm-4 img {
+        width: 100%px;
+        height: 100%;
+        margin-left: 60px !important;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+    .missoon .container-fluid {
+        margin-bottom: 50%;
+    }
+
+}
