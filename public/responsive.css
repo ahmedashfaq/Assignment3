@@ -1,0 +1,129 @@
+@media only screen and (max-width:375px) {
+    .main-body .body-logo::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: -7% !important;
+        margin-top: 7% !important;
+    }
+
+    .main-body .body-logo::after {
+       margin-left: 17% !important;
+       content: '';
+       width: 50px;
+       height: 2px;
+       background-color: var(--intro-heading);
+       display: block;
+       position: absolute;
+       margin-top: 1px !important;
+       margin-top: -8% !important;
+
+
+    }
+
+
+    .feature .body-logo::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: -7% !important;
+        margin-top: 7% !important;
+    }
+
+    .feature .body-logo::after {
+        margin-left: 17% !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-top: 1px !important;
+        margin-top: -8% !important;
+
+    }
+
+
+
+
+    .garelly .body-logo::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: -7% !important;
+        margin-top: 7% !important;
+    }
+
+    .garelly .body-logo::after {
+        margin-left: 17% !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-top: 1px !important;
+        margin-top: -8% !important;
+
+    }
+
+    .body-logo img {
+        width: 150% !important;
+
+    }
+
+    .feature .container .col-sm-4 i {
+        margin-left: 25% !important;
+    }
+
+    .feature .container .col-sm-4 img{
+        margin-left: 30% !important;
+    }
+
+    .missoon .container .col-md-4 .main-2{
+        margin-top: 40% !important;
+    }
+
+
+    .footer .link::after {
+        margin-top: 1% !important ;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: var(--intro-heading);
+        display: block;
+        position: absolute;
+        margin-left: 50% !important;
+        margin-top: -36% !important;
+        margin-left: -.2% !important;
+    }
+
+    .footer .link::before {
+        margin-top: 1% !important;
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: gray;
+        display: block;
+        position: absolute;
+        margin-left: 50% !important;
+        margin-top: -28.8% !important;
+        margin-left: -.2% !important;
+
+    }
+
+    .footer .container .foot-link {
+        margin-top: -5% !important;
+
+      
+    }
+}
